@@ -25,7 +25,7 @@
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item ps-3">
-                    <a class="nav-link" href="#">Funcionamento</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#funcionamento">Funcionamento</a>
                   </li>
                 </ul>
           </div>
@@ -49,7 +49,7 @@
               </div>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2" id="card-2"  onmousemove="mostraBotao('btn-2')" onmouseout="ocultarBotao('btn-2')">
+        <article class="card m-3 border-1 rounded-2" id="card-2"  onmousemove="mostraBotao('btn-2')" onmouseout="ocultarBotao('btn-1')">
             <img src="./assets/images/image2.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
@@ -93,6 +93,24 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="funcionamento" tabindex="-1">
+      <div class="modal-dialog">
+          <div class="modal-content p-5">
+              <div>
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+             <h2 class="text-center fw-light">Atendimento</h2>
+              <p class="p-3 fw-light text-center">
+                Rua José de Alencar, 111 centro<br>
+                CEP: 12209-000 | +55 (11) 3333-0000
+              </p>       
+              <p class="p-3 fw-light text-center"></p>       
+              <button class="btn bg-dark text-white">ENTRAR EM CONTATO</button>
+
+          </div>
+      </div>
+  </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
