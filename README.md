@@ -16,7 +16,7 @@ Clone o repositório
 
 ```git clone https://github.com/DevRafaelLima/formacao-dnc-projeto-4```
 
-Baixe as depedência do projeto
+Baixe as depedências do projeto
 
 ```npm install```
 
