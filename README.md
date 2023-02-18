@@ -6,7 +6,7 @@ Este projeto consistia em:
 2. Adicionar as seguintes funcionalidades: 
     1. Ao mover o mouse sobre o card aparecer o botão de comprar.
     ![](./assets/images/img1.png)
-    2. Ao clicar no menu superior funcionanmento mostrar o modal com informações de contato e um botão para entrar em contato. 
+    2. Ao clicar no menu superior funcionamento mostrar o modal com informações de contato e um botão para entrar em contato. 
     ![](./assets/images/img2.png)
 
 ## **Para rodar o projeto**
